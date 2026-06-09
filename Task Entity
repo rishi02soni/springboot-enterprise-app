@@ -1,0 +1,25 @@
+@Entity
+@Getter
+@Setter
+public class Task {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    private String title;
+
+    private String description;
+
+    private String priority;
+
+    private String status;
+
+    private LocalDate dueDate;
+
+    @ManyToOne
+    private User assignedTo;
+
+    @ManyToOne
+    private Project project;
+}
