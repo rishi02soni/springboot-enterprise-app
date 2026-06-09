@@ -1,0 +1,19 @@
+@Service
+@RequiredArgsConstructor
+public class UserService {
+
+    private final UserRepository repository;
+
+    public List<User> getAllUsers() {
+        return repository.findAll();
+    }
+
+    public User create(User user) {
+        return repository.save(user);
+    }
+
+    public User getById(Long id) {
+        return repository.findById(id)
+                .orElseThrow();
+    }
+}
