@@ -3,7 +3,7 @@
 A production-ready Enterprise Management Platform built using Spring Boot, Spring Security, JWT Authentication, JPA, MySQL, Redis, Docker, and Swagger. 
     
 This project demonstrates enterprise-grade backend development practices including authentication, authorization, project management, task tracking, audit logging, API documentation, caching, containerization, and scalable architecture.
-   
+    
 ---  
   
 ## Overview
