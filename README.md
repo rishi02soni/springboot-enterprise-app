@@ -12,7 +12,7 @@ Nexus Enterprise Platform is designed to help organizations manage employees, pr
 
 The application follows industry-standard software architecture and best practices used in real-world enterprise systems.
 
----
+--- 
 
 ## Features
 
