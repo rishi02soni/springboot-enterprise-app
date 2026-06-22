@@ -5,7 +5,7 @@ A production-ready Enterprise Management Platform built using Spring Boot, Sprin
 This project demonstrates enterprise-grade backend development practices including authentication, authorization, project management, task tracking, audit logging, API documentation, caching, containerization, and scalable architecture. 
             
 ---                      
-             
+              
 ## Overview   
    
 Nexus Enterprise Platform is designed to help organizations manage employees, projects, tasks, and workflows through a secure and scalable REST API..
